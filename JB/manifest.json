@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    
+    "name": "toc",
+    "description": "my toc",
+    "version": "0.0.1",
+
+    "browser_action": {
+        "default_popup": "toc.html"
+    },
+
+    "permissions": [
+        "activeTab",
+        "storage"
+    ]
+}
