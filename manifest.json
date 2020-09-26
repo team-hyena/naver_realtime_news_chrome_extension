@@ -1,0 +1,22 @@
+{
+    "name": "네이버 실시간 검색어",
+    "description" : "Base Level Extension",
+    "version": "1.0",
+    "background": {  "scripts": ["thirdParty/jquery-2.0.3.js", "news.js"]	 },
+    "browser_action": {
+      "default_popup": "index.html",
+      "default_icon": "jj.png"
+    },
+    "manifest_version": 2,
+    "commands": {
+      "_execute_browser_action": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+F",
+          "mac": "MacCtrl+Shift+F"
+        },
+        "description": "Opens index.html"
+      }
+    
+    }
+  }
+  
